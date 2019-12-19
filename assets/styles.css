@@ -1,0 +1,77 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sniglet', cursive;
+    font-size: 16px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  
+  /*----------  Navbar  ----------*/
+
+  header {
+      height: 48px;
+      width: 100%;
+      display: flex;
+      min-width: 300px;
+      background-color: #fff;
+      box-shadow: 0 0 32px rgba(0,0,0,.15);
+  }
+
+  .icon-sm {
+      width: 106px;
+      height: 100%;
+      display: grid;
+      justify-items: center;
+      align-items: center;
+      background: linear-gradient(to bottom right,#c09,#f42 85%);
+  }
+
+  /* Todo - Fix hover gif later
+  .icon-sm:hover {
+      background: url(https://media.giphy.com/media/3oKHWvUUMPQhCOCT72/giphy.gif);
+  } */
+  
+  .icon-sm-svg {
+      width: 66px;
+      height: 16px;
+  }
+
+
+  .navbar-right-items-sm {
+      margin-left: auto;
+      display: flex;
+  }
+
+  .search-sm {
+    width: 48px;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-left: 1px solid #eee;
+    color: #bdb9b9;
+  }
+
+  /* Todo - Fix hover color change
+  .search-sm:hover {
+      color: #525252;
+  } */
+  
+  .menu-sm {
+    width: 48px;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-left: 1px solid #eee;
+    color: #f42;
+  }
+
+  
