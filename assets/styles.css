@@ -4,8 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Sniglet', cursive;
     font-size: 16px;
+    font-family: 'Ropa Sans', sans-serif;
   }
   
   a {
@@ -57,6 +57,8 @@
     align-items: center;
     border-left: 1px solid #eee;
     color: #bdb9b9;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
 
   /* Todo - Fix hover color change
@@ -74,4 +76,61 @@
     color: #f42;
   }
 
+.article-wrapper {
+  display: grid;
+  grid-template-areas: 
+  "article1"
+  "article2"
+  "article3"
+}
+
+.featured-article {
+  display: flex;
+  height: 235px;
+  color: #FFF;
+  padding: 14px 12px;
+  margin: 8px 8px 4px 8px;
+}
+
+.items-wrapper {
+  margin-top: auto;
+}
+
+.article-category {
+  padding-bottom: 4px;
+}
+
+.article-title {
+  font-size: 22px;
+  padding-bottom: 4px;
+}
+
+.article-list li {
+  display: inline-block;
+  padding-right: 4px;
+  color:hsla(0,0%,100%,.6);
+}
+
+.article-list i {
+  padding-right: 4px;
+  padding-left: 8px;
+}
+
+.art-1 {
+  grid-area: article1;
+  background: url(/images/santa_crypto_giftguide_cryptocurrency_bitocin_blockchain_hard_fork_winter_presents_holiday_796x448.jpg) no-repeat ;
+  background-size: cover;
+  /* background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 60%); */
+  /* background: black; */
+}
+.art-2 {
+  grid-area: article2;
+  background: url(/images/cryptocurrency_ethereum_gastoken_exchange_bug_hackers_796x450.jpg) no-repeat;
+  background-size: cover;
+}
+.art-3 {
+grid-area: article3;
+background: url(/images/header_image_all_i_want_for_xmas_796x417.png) no-repeat;
+background-size: cover;
+}
   
