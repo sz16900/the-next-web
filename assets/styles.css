@@ -84,7 +84,6 @@
 }
 
 .featured-article {
-  display: flex;
   height: 235px;
   color: #FFF;
   margin: 8px 8px 4px 8px;
@@ -94,13 +93,12 @@
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,1) 85%);
-  position: relative;
+  display: grid;
+  align-items: end;
 }
 
 
 .items-wrapper {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   padding: 14px 12px;
 }
@@ -130,7 +128,6 @@
   grid-area: article1;
   background: url(/images/santa_crypto_giftguide_cryptocurrency_bitocin_blockchain_hard_fork_winter_presents_holiday_796x448.jpg) no-repeat ;
   background-size: cover;
-  /* background: black; */
 }
 .art-2 {
   grid-area: article2;
@@ -138,8 +135,154 @@
   background-size: cover;
 }
 .art-3 {
-grid-area: article3;
-background: url(/images/header_image_all_i_want_for_xmas_796x417.png) no-repeat;
-background-size: cover;
+  grid-area: article3;
+  background: url(/images/header_image_all_i_want_for_xmas_796x417.png) no-repeat;
+  background-size: cover;
 }
   
+/*----------  Latest News  ----------*/
+
+.latest-news {
+  padding: 48px 8px 0 8px;
+}
+
+.latest-news-header a{
+  color:#f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 28px;
+  letter-spacing: -.015em;
+  padding-left: 8px;
+}
+
+.four-col-muchachos {
+  padding: 16px 0;
+  display: grid;
+  grid-template-areas: 
+  "muchachito1"
+  "muchachito2"
+  "muchachito3"
+  "muchachito4"
+  "muchachito5"
+  "muchachito6"
+  "muchachito7"
+  "muchachito8";
+}
+
+.muchachito {
+  height: 88px;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.latest-news-image {
+  width: 75px;
+  height: 75px;
+}
+
+.latest-news-text {
+  padding: 8px;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.latest-news-text h4 {
+  font-size: 16px;
+}
+
+.latest-details p {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #aaa;
+  padding-right: 10px;
+
+}
+
+.ln-1 {
+  grid-area: muchachito1;
+}
+
+.ln-2 {
+  grid-area: muchachito2;
+}
+
+.ln-3 {
+  grid-area: muchachito3;
+}
+
+.ln-4 {
+  grid-area: muchachito4;
+}
+
+.ln-5 {
+  grid-area: muchachito5;
+}
+
+.ln-6 {
+  grid-area: muchachito6;
+}
+
+.ln-7 {
+  grid-area: muchachito7;
+}
+
+.ln-8 {
+  grid-area: muchachito8;
+}
+
+.ln-1 .latest-news-image {
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/adobe-405x270.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.ln-2 .latest-news-image {
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/zTRSRad-540x270.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.ln-3 .latest-news-image {
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.ln-4 .latest-news-image {
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/LIBRA-STRATEGY-516x270.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.ln-5 .latest-news-image {
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Facebook-Portal-hed-513x270.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.ln-6 .latest-news-image {
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/1-16-516x270.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.ln-7 .latest-news-image {
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/teslataxi-516x270.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.ln-8 .latest-news-image {
+  width: 75px;
+  height: 75px;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Battery-hed-513x270.jpg) no-repeat center;
+  background-size: cover;
+}
