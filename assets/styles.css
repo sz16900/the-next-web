@@ -143,7 +143,7 @@
 /*----------  Latest News  ----------*/
 
 .latest-news {
-  padding: 48px 8px 0 8px;
+  padding: 48px 0 0 0;
 }
 
 .latest-news-header a{
@@ -152,7 +152,6 @@
   line-height: 1.1;
   font-size: 28px;
   letter-spacing: -.015em;
-  padding-left: 8px;
 }
 
 .four-col-muchachos {
@@ -170,8 +169,7 @@
 }
 
 .muchachito {
-  height: 88px;
-  padding: 8px;
+  height: 100%;
   display: grid;
   grid-template-columns: auto 1fr;
 }
@@ -287,6 +285,13 @@
   background-size: cover;
 }
 
+
+/*----------  Funding Rounds  ----------*/
+
+.main-wrapper {
+  padding: 0 28px;
+}
+
 /*----------  Funding Rounds  ----------*/
 
 .deals-funding {
@@ -294,13 +299,10 @@
   padding-top: 10px;
 }
 
+
 .fr-wrapper {
   display: grid;
-  padding: 0 8px;
-}
-
-.deals-funding {
-  padding-left: 8px;
+  margin-top: 30px;
 }
 
 .funding-round-image {
@@ -308,7 +310,7 @@
   background-size: cover;
   height: 60px;
   width: 60px;
-  margin: 10.66px;
+  margin: 30px 10.66px 10.66px 10.66px;
   position: absolute;
 }
 
@@ -318,6 +320,7 @@
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   font-size: 22px;
   color: #fff;
+  margin-top: 12px;
 }
 
 .card-deets {
@@ -338,7 +341,6 @@
 
 .story-title {
   font-size: 16px;
-  padding-left: 2em;
   position: relative;
   padding-bottom: 10px;
 }
@@ -350,10 +352,52 @@
 
 .story-title-link {
   font-size: 16px;
-  padding-left: 2em;
   padding-top: 15px;
   margin-top: 15px;
   color: #aaa;
   border-top: 1px solid #f42;
 }
 
+/* Fun Stuff */
+
+.fun-stuff-wrapper {
+  display: grid;
+  grid-template-areas: 
+  "clickers1"
+  "clickers2"
+  "clickers3"
+  "clickers4"
+  "clickers5"
+  "clickers6"
+  "clickers7"
+  "clickers8"
+}
+
+.clickers {
+  height: 251px;
+}
+
+.latest {
+  height: 96px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  background-color: rgba(255,68,34,.06);
+}
+
+.latest-fun-image {
+  width: 96px;
+  height: 96px;
+  background: red;
+}
+
+.latest-fun-text a, h5 {
+  color: #f42;
+}
+
+.latest-fun-text {
+  padding: 12px;
+}
+
+.fun-items {
+  background: red;
+}
