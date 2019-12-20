@@ -543,3 +543,47 @@
 
 /*----------  Latest Deals [DO NOT TOUCH CODE ABOVE THIS]  ----------*/
 
+.deals {
+  display: grid;
+  grid-gap: 20px;
+}
+
+.ld-1 .latest-news-image {
+  background: url("https://cdnp2.stackassets.com/bb420041b7bf2fae328a461be3854694db99c887/store/762721c3ff4746e91fa56082c9999f1e41af9cbdf99daebe2bdd2b1cb64f/sale_23425_primary_image.jpg") no-repeat center;
+  background-size: cover 
+}
+
+.ld-2 .latest-news-image {
+  background: url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg") no-repeat center;
+  background-size: cover; 
+}
+
+.ld-3 .latest-news-image {
+  background: url("https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.ld-4 .latest-news-image {
+  background: url("https://cdnp0.stackassets.com/26e586c6faa56dd29d491bcb023c39e0191afbda/store/8069ccf36e76900d19f47055cc66d9caa648df89eb3f58c59dbb429f6b3b/product_30237_product_shots1.jpg") no-repeat center;
+  background-size: cover; 
+}
+
+.ld-5 .latest-news-image {
+  background: url("https://cdnp2.stackassets.com/15da7ef20e2b66400daa6500f10da15a117e28c2/store/546a0668bfc933fc3d1a4c1b068b53571dbe1982a820ff2de34eec64fe56/sale_24290_primary_image.jpg") no-repeat center;
+  background-size: cover; 
+}
+
+.ld-6 .latest-news-image {
+  background: url("https://cdnp2.stackassets.com/bb420041b7bf2fae328a461be3854694db99c887/store/762721c3ff4746e91fa56082c9999f1e41af9cbdf99daebe2bdd2b1cb64f/sale_23425_primary_image.jpg") no-repeat center;
+  background-size: cover 
+}
+
+.ld-7 .latest-news-image {
+  background: url("https://cdnp1.stackassets.com/e5de6d096cb2c61aae8e0bed3b4d5147f0a509c8/store/7f83ecd417fe7458a49748113a43443d9ed0faf44d77f31f888997665ced/sale_24041_primary_image.jpg") no-repeat center;
+  background-size: cover 
+}
+
+.ld-8 .latest-news-image {
+  background: url("https://cdnp2.stackassets.com/a0695bf765f5209ae845b845a7c316092891ea4a/store/54b7b525a385b2b1962c1fa649e01986728b5e98aa2a64343bbbf30681bd/sale_15929_primary_image.jpg") no-repeat center;
+  background-size: cover 
+}
