@@ -13,6 +13,13 @@
   }
 
   
+/*----------  Main  ----------*/
+
+.main-wrapper {
+  padding: 0 20px;
+}
+  
+  
   /*----------  Navbar  ----------*/
 
   header {
@@ -22,6 +29,8 @@
       min-width: 300px;
       background-color: #fff;
       box-shadow: 0 0 32px rgba(0,0,0,.15);
+      position: fixed;
+      z-index: 9998;
   }
 
   .icon-sm {
@@ -105,12 +114,14 @@
 
 .article-category {
   padding-bottom: 4px;
+  color: #fff;
 }
 
 .article-title {
   font-size: 22px;
   padding-bottom: 4px;
   font-weight: 600;
+  color: #fff;
 }
 
 .article-list li {
@@ -139,7 +150,8 @@
   background: url(/images/header_image_all_i_want_for_xmas_796x417.png) no-repeat;
   background-size: cover;
 }
-  
+
+
 /*----------  Latest News  ----------*/
 
 .latest-news {
@@ -288,12 +300,6 @@
 
 /*----------  Funding Rounds  ----------*/
 
-.main-wrapper {
-  padding: 0 28px;
-}
-
-/*----------  Funding Rounds  ----------*/
-
 .deals-funding {
   color: #f42;
   padding-top: 10px;
@@ -358,7 +364,7 @@
   border-top: 1px solid #f42;
 }
 
-/* Fun Stuff */
+/*----------  Fun Stuff  ----------*/
 
 .fun-stuff-wrapper {
   display: grid;
@@ -371,6 +377,10 @@
   "clickers6"
   "clickers7"
   "clickers8"
+}
+
+.fun-stuff-item {
+  height: 640px;
 }
 
 .clickers {
@@ -387,11 +397,17 @@
 .latest-fun-image {
   width: 96px;
   height: 96px;
-  background: red;
 }
 
-.latest-fun-text a, h5 {
+.latest-fun-text h5 {
   color: #f42;
+  font-weight: lighter;
+}
+
+.latest-fun-text a {
+  color: #f42;
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
 
 .latest-fun-text {
@@ -399,5 +415,131 @@
 }
 
 .fun-items {
-  background: red;
+  padding-left: 20px;
 }
+
+.fun-item {
+  padding: 10px 0px 6px 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+  color: #555;
+  border-bottom: 1px solid #eee;
+}
+
+.clicker-wrapper-1 {
+  grid-area: clickers1;
+}
+
+.clicker-wrapper-2 {
+  grid-area: clickers2;
+}
+
+.clicker-wrapper-3 {
+  grid-area: clickers3;
+}
+
+.clicker-wrapper-4 {
+  grid-area: clickers4;
+}
+
+.clicker-wrapper-5 {
+  grid-area: clickers5;
+}
+
+.clicker-wrapper-6 {
+  grid-area: clickers6;
+}
+
+.clicker-wrapper-7 {
+  grid-area: clickers7;
+}
+
+.clicker-wrapper-8 {
+  grid-area: clickers8;
+}
+
+
+.ci-1 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagram-Threads-796x417.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lfi-1 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/05/facebook_and_data_privacy.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.ci-2 {
+  background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F12%2Ftablet_feat-1.jpg&signature=b4cd9cf18b9ffea778d29cc4e252f744) no-repeat center;
+  background-size: cover;
+}
+
+.lfi-2 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/header-image-all-i-want-for-xmas.png) no-repeat center;
+  background-size: cover;
+}
+
+.ci-3{
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/teslataxi-796x417.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lfi-3 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/https___thenextweb.com__p1263427previewtrue-796x417.png) no-repeat center;
+  background-size: cover;
+}
+
+.ci-4{
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-796x417.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lfi-4 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214.png) no-repeat center;
+  background-size: cover;
+}
+
+.ci-5{
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-796x417.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lfi-5 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214.png) no-repeat center;
+  background-size: cover;
+}
+
+.ci-6{
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-796x417.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lfi-6 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214.png) no-repeat center;
+  background-size: cover;
+}
+
+.ci-7{
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-796x417.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lfi-7 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214.png) no-repeat center;
+  background-size: cover;
+}
+
+.ci-8{
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-796x417.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.lfi-8 {
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214.png) no-repeat center;
+  background-size: cover;
+}
+
+
+/*----------  Latest Deals [DO NOT TOUCH CODE ABOVE THIS]  ----------*/
+
