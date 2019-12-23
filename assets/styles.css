@@ -590,6 +590,43 @@ header {
   color: #aaa;
 }
 
+.footer-links {
+  background: #131313;
+  text-align: center;
+  padding:  35px 0;
+}
+
+.footer-links-social {
+  margin-bottom: 44px;
+}
+
+.footer-links-social a {
+  border-radius: 50%;
+  background:#333;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footer-links-social li{
+  display: inline-block;  
+  color: #fff;
+
+
+}
+
+.footer-links-contacts li {
+  font-family: Shentox,sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+  color: #fff;
+}
+
 .footer-legal-wrapper {
   margin: 0 auto;
   max-width: 1192px;
@@ -613,3 +650,5 @@ header {
   display: inline-block;
   height: 9px;
 }
+
+
