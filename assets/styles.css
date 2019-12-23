@@ -239,57 +239,41 @@ header {
 }
 
 .ln-1 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/adobe-405x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-2 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/zTRSRad-540x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-3 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-4 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/LIBRA-STRATEGY-516x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-5 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Facebook-Portal-hed-513x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-6 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/1-16-516x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-7 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/teslataxi-516x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-8 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Battery-hed-513x270.jpg) no-repeat center;
   background-size: cover;
 }
@@ -681,11 +665,20 @@ header {
     grid-template-areas:
       "muchachito1 muchachito2 muchachito3"
       "muchachito4 muchachito5 muchachito6"
-      "muchachito7 muchachito8";
+      "muchachito7 muchachito8 nothing";
     height: 100%;
+    grid-gap: 20px;
   }
 
   .muchachito {
-    height: 230px;
+    height: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: 2fr 1fr;
   }
+
+  .latest-news-image {
+    width: 100%;
+    height: 100%;
+  }
+
 }
