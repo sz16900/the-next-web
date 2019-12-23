@@ -652,3 +652,40 @@ header {
 }
 
 
+
+/*----------  Media Queries - 768px  ----------*/
+
+@media screen and (min-width: 768px) {
+
+  /* Featured Articles */
+  .article-wrapper {
+    grid-template-areas: 
+    "article1 article1 article2"
+    "article1 article1 article3";
+    height: 50vh;
+  }
+
+  .featured-article {
+    height: 100%;
+  }
+
+  .article-title {
+    font-size: 20px;
+  }
+
+  .art-1 .article-title {
+    font-size: 40px;
+  }
+  
+  .four-col-muchachos {
+    grid-template-areas:
+      "muchachito1 muchachito2 muchachito3"
+      "muchachito4 muchachito5 muchachito6"
+      "muchachito7 muchachito8";
+    height: 100%;
+  }
+
+  .muchachito {
+    height: 230px;
+  }
+}
