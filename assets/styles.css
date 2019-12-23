@@ -167,14 +167,14 @@ header {
   padding: 16px 0;
   display: grid;
   grid-template-areas:
-    "muchachito1"
-    "muchachito2"
-    "muchachito3"
-    "muchachito4"
-    "muchachito5"
-    "muchachito6"
-    "muchachito7"
-    "muchachito8";
+    "ln_1"
+    "ln_2"
+    "ln_3"
+    "ln_4"
+    "ln_5"
+    "ln_6"
+    "ln_7"
+    "ln_8";
 }
 
 .muchachito {
@@ -207,35 +207,35 @@ header {
 }
 
 .ln-1 {
-  grid-area: muchachito1;
+  grid-area: ln_1;
 }
 
 .ln-2 {
-  grid-area: muchachito2;
+  grid-area: ln_2;
 }
 
 .ln-3 {
-  grid-area: muchachito3;
+  grid-area: ln_3;
 }
 
 .ln-4 {
-  grid-area: muchachito4;
+  grid-area: ln_4;
 }
 
 .ln-5 {
-  grid-area: muchachito5;
+  grid-area: ln_5;
 }
 
 .ln-6 {
-  grid-area: muchachito6;
+  grid-area: ln_6;
 }
 
 .ln-7 {
-  grid-area: muchachito7;
+  grid-area: ln_7;
 }
 
 .ln-8 {
-  grid-area: muchachito8;
+  grid-area: ln_8;
 }
 
 .ln-1 .latest-news-image {
@@ -677,15 +677,27 @@ header {
     font-size: 40px;
   }
   
+  /* .muchachito {
+    height: 230px;
+    width: 200px;
+  } */
+
   .four-col-muchachos {
+    width: 100vw;
     grid-template-areas:
-      "muchachito1 muchachito2 muchachito3"
-      "muchachito4 muchachito5 muchachito6"
-      "muchachito7 muchachito8";
+      "ln_1 ln_2 ln_3"
+      "ln_4 ln_5 ln_6"
+      "ln_7 ln_8 Hello";
     height: 100%;
   }
 
   .muchachito {
-    height: 230px;
+    grid-template-columns: auto;
   }
+
+  .latest-news-image {
+    width: 100%;
+    height: 100%;
+  }
+
 }
