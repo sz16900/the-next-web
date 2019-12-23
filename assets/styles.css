@@ -155,6 +155,10 @@ header {
   padding: 48px 0 0 0;
 }
 
+.latest-news-header {
+  margin-top: 30px;
+}
+
 .latest-news-header a {
   color: #f42;
   font-weight: 700;
@@ -288,7 +292,6 @@ header {
 
 .fr-wrapper {
   display: grid;
-  margin-top: 30px;
 }
 
 .funding-round-image {
