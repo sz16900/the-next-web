@@ -1,111 +1,107 @@
 /* RESET */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-size: 16px;
-    font-family: 'Ropa Sans', sans-serif;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Ropa Sans', sans-serif;
+}
 
-  
-/*----------  Main  ----------*/
+a {
+  text-decoration: none;
+}
+
+/* ----------  Main  ---------- */
 
 .main-wrapper {
   padding: 0 20px;
 }
-  
-  
-  /*----------  Navbar  ----------*/
 
-  header {
-      height: 48px;
-      width: 100%;
-      display: flex;
-      min-width: 300px;
-      background-color: #fff;
-      box-shadow: 0 0 32px rgba(0,0,0,.15);
-      position: fixed;
-      z-index: 9998;
-  }
+/* ----------  Navbar  ---------- */
 
-  .icon-sm {
-      width: 106px;
-      height: 100%;
-      display: grid;
-      justify-items: center;
-      align-items: center;
-      background: linear-gradient(to bottom right,#c09,#f42 85%);
-  }
+header {
+  height: 48px;
+  width: 100%;
+  display: flex;
+  min-width: 300px;
+  background-color: #fff;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  z-index: 9998;
+}
 
-  /* Todo - Fix hover gif later
+.icon-sm {
+  width: 106px;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+}
+
+/* Todo - Fix hover gif later
   .icon-sm:hover {
       background: url(https://media.giphy.com/media/3oKHWvUUMPQhCOCT72/giphy.gif);
   } */
-  
-  .icon-sm-svg {
-      width: 66px;
-      height: 16px;
-  }
 
+.icon-sm-svg {
+  width: 66px;
+  height: 16px;
+}
 
-  .navbar-right-items-sm {
-      margin-left: auto;
-      display: flex;
-  }
+.navbar-right-items-sm {
+  margin-left: auto;
+  display: flex;
+}
 
-  .search-sm {
-    width: 48px;
-    height: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    border-left: 1px solid #eee;
-    color: #bdb9b9;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
+.search-sm {
+  width: 48px;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-left: 1px solid #eee;
+  color: #bdb9b9;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
 
-  .search-sm:hover {
-     color: #525252;
-  }
-  
-  .menu-sm {
-    width: 48px;
-    height: 100%;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    border-left: 1px solid #eee;
-    color: #f42;
-  }
+.search-sm:hover {
+  color: #525252;
+}
+
+.menu-sm {
+  width: 48px;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  border-left: 1px solid #eee;
+  color: #f42;
+}
 
 .article-wrapper {
   display: grid;
-  grid-template-areas: 
-  "article1"
-  "article2"
-  "article3"
+  grid-template-areas:
+    "article1"
+    "article2"
+    "article3";
 }
 
 .featured-article {
   height: 235px;
-  color: #FFF;
+  color: #fff;
   margin: 8px 8px 4px 8px;
 }
 
 .gradient {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0.25), rgba(0,0,0,1) 85%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 1) 85%);
   display: grid;
   align-items: end;
 }
-
 
 .items-wrapper {
   width: 100%;
@@ -127,7 +123,7 @@
 .article-list li {
   display: inline-block;
   padding-right: 4px;
-  color:hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
 }
 
 .article-list i {
@@ -137,47 +133,48 @@
 
 .art-1 {
   grid-area: article1;
-  background: url(/images/santa_crypto_giftguide_cryptocurrency_bitocin_blockchain_hard_fork_winter_presents_holiday_796x448.jpg) no-repeat ;
+  background: url(/images/santa_crypto_giftguide_cryptocurrency_bitocin_blockchain_hard_fork_winter_presents_holiday_796x448.jpg) no-repeat;
   background-size: cover;
 }
+
 .art-2 {
   grid-area: article2;
   background: url(/images/cryptocurrency_ethereum_gastoken_exchange_bug_hackers_796x450.jpg) no-repeat;
   background-size: cover;
 }
+
 .art-3 {
   grid-area: article3;
   background: url(/images/header_image_all_i_want_for_xmas_796x417.png) no-repeat;
   background-size: cover;
 }
 
-
-/*----------  Latest News  ----------*/
+/* ----------  Latest News  ---------- */
 
 .latest-news {
   padding: 48px 0 0 0;
 }
 
-.latest-news-header a{
-  color:#f42;
+.latest-news-header a {
+  color: #f42;
   font-weight: 700;
   line-height: 1.1;
   font-size: 28px;
-  letter-spacing: -.015em;
+  letter-spacing: -0.015em;
 }
 
 .four-col-muchachos {
   padding: 16px 0;
   display: grid;
-  grid-template-areas: 
-  "muchachito1"
-  "muchachito2"
-  "muchachito3"
-  "muchachito4"
-  "muchachito5"
-  "muchachito6"
-  "muchachito7"
-  "muchachito8";
+  grid-template-areas:
+    "muchachito1"
+    "muchachito2"
+    "muchachito3"
+    "muchachito4"
+    "muchachito5"
+    "muchachito6"
+    "muchachito7"
+    "muchachito8";
 }
 
 .muchachito {
@@ -196,6 +193,7 @@
   display: grid;
   grid-template-rows: 1fr auto;
 }
+
 .latest-news-text h4 {
   font-size: 16px;
 }
@@ -206,7 +204,6 @@
   font-size: 12px;
   color: #aaa;
   padding-right: 10px;
-
 }
 
 .ln-1 {
@@ -297,14 +294,12 @@
   background-size: cover;
 }
 
-
-/*----------  Funding Rounds  ----------*/
+/* ----------  Funding Rounds  ---------- */
 
 .deals-funding {
   color: #f42;
   padding-top: 10px;
 }
-
 
 .fr-wrapper {
   display: grid;
@@ -330,14 +325,14 @@
 }
 
 .card-deets {
-  background-color: rgba(255,68,34,.08);
+  background-color: rgba(255, 68, 34, 0.08);
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   margin-bottom: 15px;
 }
 
 .money {
   font-size: 22px;
-  color:#000;
+  color: #000;
 }
 
 .series {
@@ -364,19 +359,19 @@
   border-top: 1px solid #f42;
 }
 
-/*----------  Fun Stuff  ----------*/
+/* ----------  Fun Stuff  ---------- */
 
 .fun-stuff-wrapper {
   display: grid;
-  grid-template-areas: 
-  "clickers1"
-  "clickers2"
-  "clickers3"
-  "clickers4"
-  "clickers5"
-  "clickers6"
-  "clickers7"
-  "clickers8"
+  grid-template-areas:
+    "clickers1"
+    "clickers2"
+    "clickers3"
+    "clickers4"
+    "clickers5"
+    "clickers6"
+    "clickers7"
+    "clickers8";
 }
 
 .fun-stuff-item {
@@ -391,7 +386,7 @@
   height: 96px;
   display: grid;
   grid-template-columns: 1fr auto;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, 0.06);
 }
 
 .latest-fun-image {
@@ -419,7 +414,7 @@
 }
 
 .fun-item {
-  padding: 10px 0px 6px 6px;
+  padding: 10px 0 6px 6px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 200;
@@ -459,7 +454,6 @@
   grid-area: clickers8;
 }
 
-
 .ci-1 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Instagram-Threads-796x417.jpg) no-repeat center;
   background-size: cover;
@@ -480,7 +474,7 @@
   background-size: cover;
 }
 
-.ci-3{
+.ci-3 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/teslataxi-796x417.jpg) no-repeat center;
   background-size: cover;
 }
@@ -490,7 +484,7 @@
   background-size: cover;
 }
 
-.ci-4{
+.ci-4 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-796x417.jpg) no-repeat center;
   background-size: cover;
 }
@@ -500,7 +494,7 @@
   background-size: cover;
 }
 
-.ci-5{
+.ci-5 {
   background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F12%2FUntitled-design24.png&signature=5377207bc3e20ac942a554a3167f861a) no-repeat center;
   background-size: cover;
 }
@@ -510,7 +504,7 @@
   background-size: cover;
 }
 
-.ci-6{
+.ci-6 {
   background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F12%2FLIBRA-STRATEGY.jpg&signature=1ea3656d016a5048ce9b72ebb3bbc638) no-repeat center;
   background-size: cover;
 }
@@ -520,7 +514,7 @@
   background-size: cover;
 }
 
-.ci-7{
+.ci-7 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Amazon-Prime-Fresh-delivery-hed-796x419.jpg) no-repeat center;
   background-size: cover;
 }
@@ -530,7 +524,7 @@
   background-size: cover;
 }
 
-.ci-8{
+.ci-8 {
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Squad-Stream-796x417.jpg) no-repeat center;
   background-size: cover;
 }
@@ -540,8 +534,7 @@
   background-size: cover;
 }
 
-
-/*----------  Latest Deals  ----------*/
+/* ----------  Latest Deals  ---------- */
 
 .deals {
   display: grid;
@@ -550,12 +543,12 @@
 
 .ld-1 .latest-news-image {
   background: url("https://cdnp2.stackassets.com/bb420041b7bf2fae328a461be3854694db99c887/store/762721c3ff4746e91fa56082c9999f1e41af9cbdf99daebe2bdd2b1cb64f/sale_23425_primary_image.jpg") no-repeat center;
-  background-size: cover 
+  background-size: cover;
 }
 
 .ld-2 .latest-news-image {
   background: url("https://cdnp0.stackassets.com/0bcaf472e484efc5812ba81caff99e8d92b3e6e9/store/a608033f5bd5c0926a52360990ea5bd8a7241593db592e096d16df200727/product_30218_product_shots4.jpg") no-repeat center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .ld-3 .latest-news-image {
@@ -565,25 +558,58 @@
 
 .ld-4 .latest-news-image {
   background: url("https://cdnp0.stackassets.com/26e586c6faa56dd29d491bcb023c39e0191afbda/store/8069ccf36e76900d19f47055cc66d9caa648df89eb3f58c59dbb429f6b3b/product_30237_product_shots1.jpg") no-repeat center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .ld-5 .latest-news-image {
   background: url("https://cdnp2.stackassets.com/15da7ef20e2b66400daa6500f10da15a117e28c2/store/546a0668bfc933fc3d1a4c1b068b53571dbe1982a820ff2de34eec64fe56/sale_24290_primary_image.jpg") no-repeat center;
-  background-size: cover; 
+  background-size: cover;
 }
 
 .ld-6 .latest-news-image {
   background: url("https://cdnp2.stackassets.com/bb420041b7bf2fae328a461be3854694db99c887/store/762721c3ff4746e91fa56082c9999f1e41af9cbdf99daebe2bdd2b1cb64f/sale_23425_primary_image.jpg") no-repeat center;
-  background-size: cover 
+  background-size: cover;
 }
 
 .ld-7 .latest-news-image {
   background: url("https://cdnp1.stackassets.com/e5de6d096cb2c61aae8e0bed3b4d5147f0a509c8/store/7f83ecd417fe7458a49748113a43443d9ed0faf44d77f31f888997665ced/sale_24041_primary_image.jpg") no-repeat center;
-  background-size: cover 
+  background-size: cover;
 }
 
 .ld-8 .latest-news-image {
   background: url("https://cdnp2.stackassets.com/a0695bf765f5209ae845b845a7c316092891ea4a/store/54b7b525a385b2b1962c1fa649e01986728b5e98aa2a64343bbbf30681bd/sale_15929_primary_image.jpg") no-repeat center;
-  background-size: cover 
+  background-size: cover;
+}
+
+/* ----------  Footer  ---------- */
+
+.footer-legal {
+  padding: 2.3rem 0;
+  text-align: center;
+  background-color: #000;
+  color: #aaa;
+}
+
+.footer-legal-wrapper {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+}
+
+.footer-legal-wrapper span {
+  display: block;
+}
+
+.footer-legal b {
+  color: rgb(207, 24, 24);
+}
+
+.footer-legal-logo-tnw {
+  display: inline-block;
+  height: 9px;
+}
+
+.footer-legal-logoStackPath {
+  display: inline-block;
+  height: 9px;
 }
