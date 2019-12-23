@@ -239,57 +239,41 @@ header {
 }
 
 .ln-1 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/adobe-405x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-2 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/zTRSRad-540x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-3 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/bitcoin_today-header_bitcoin_today-512x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-4 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/LIBRA-STRATEGY-516x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-5 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Facebook-Portal-hed-513x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-6 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/1-16-516x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-7 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/teslataxi-516x270.jpg) no-repeat center;
   background-size: cover;
 }
 
 .ln-8 .latest-news-image {
-  width: 75px;
-  height: 75px;
   background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Battery-hed-513x270.jpg) no-repeat center;
   background-size: cover;
 }
@@ -299,6 +283,7 @@ header {
 .deals-funding {
   color: #f42;
   padding-top: 10px;
+  display: block;
 }
 
 .fr-wrapper {
@@ -601,19 +586,19 @@ header {
 }
 
 .footer-links-social a {
+  display: inline-block;
   border-radius: 50%;
   background:#333;
   height: 40px;
   padding: 12px;
   text-align: center;
   width: 40px;
+  margin-right:10px;
 }
 
 .footer-links-social li{
   display: inline-block;  
   color: #fff;
-
-
 }
 
 .footer-links-contacts li {
@@ -683,16 +668,19 @@ header {
   } */
 
   .four-col-muchachos {
-    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "ln_1 ln_2 ln_3"
       "ln_4 ln_5 ln_6"
       "ln_7 ln_8 Hello";
     height: 100%;
+    grid-gap: 20px;
   }
 
   .muchachito {
+    height: 100%;
     grid-template-columns: auto;
+    grid-template-rows: 2fr 1fr;
   }
 
   .latest-news-image {
@@ -700,4 +688,29 @@ header {
     height: 100%;
   }
 
+  .deals-funding {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 10px 0 0;
+  }
+  .middle-funding {
+    border-left: 1px solid #f42; 
+    border-right: 1px solid #f42;
+    padding-left: 10px; 
+    margin-right: 10px;
+  }
+
+  .fun-stuff-wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas: 
+    "clickers1 clickers2"
+    "clickers3 clickers4"
+    "clickers5 clickers6"
+    "clickers7 clickers8";
+  }
+  .footer-legal-wrapper span {
+    display: inline-block;
+    padding: 0 5px;
+  }
 }
