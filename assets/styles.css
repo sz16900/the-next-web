@@ -112,6 +112,11 @@ header {
   align-items: end;
 }
 
+
+.art-1-large-logo {
+  display: none;
+}
+
 .items-wrapper {
   width: 100%;
   padding: 14px 12px;
@@ -706,13 +711,21 @@ header {
     padding: 10px;
   }
 
+  /* Main Wrapper */
+
+  .main-wrapper {
+    max-width: 1192px;
+    margin: 0 auto;
+  }
+  
   /* Featured Articles */
   .article-wrapper {
+    margin-top: 28px;
     height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "article1 article1 article2"
       "article1 article1 article3";
-    height: 50vh;
   }
 
   .featured-article {
@@ -777,13 +790,45 @@ header {
   }
 }
 
+/*----------  Media Query 824px  ----------*/
+
 @media screen and (min-width: 824px) {
-  /* increase the size of this wrapper when resized */
+  .article-wrapper {
+    margin-top: 28px;
+    height: 55vh;
+  }
 }
 
+/*----------  Media Query 1024px  ----------*/
+
 @media screen and (min-width: 1024px) {
-  .main-wrapper {
+  .article-wrapper {
     margin-top: 28px;
+  }
+  
+  .icon-sm-wrapper {
+    display: none;
+  }
+  
+  .article-title {
+    font-size: 28px;
+  }
+
+  .art-1 .gradient {
+    background-image: linear-gradient(150deg, rgba(255, 68, 34, 0.9) 20%, rgba(0, 0, 0, 0.6) 65%);
+    position: relative;
+  }
+
+  .art-1-large-logo {
+    display: inherit;
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    padding-left: 10px;
+  }
+
+  .art-1 .article-title {
+    font-size: 56px;
   }
 
   .four-col-muchachos {
@@ -794,6 +839,7 @@ header {
     height: 100%;
     grid-gap: 20px;
   }
+  
 
   .fr-4 {
     display: block;
