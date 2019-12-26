@@ -709,6 +709,10 @@ header {
     padding: 10px;
   }
 
+  .menu-sm {
+    display: none;
+  }
+  
   /* Main Wrapper */
 
   .main-wrapper {
