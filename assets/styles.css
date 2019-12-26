@@ -147,19 +147,19 @@ header {
 
 .art-1 {
   grid-area: article1;
-  background: url(/images/santa_crypto_giftguide_cryptocurrency_bitocin_blockchain_hard_fork_winter_presents_holiday_796x448.jpg) no-repeat;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2015/05/minecraft-1200x600.jpg) no-repeat;
   background-size: cover;
 }
 
 .art-2 {
   grid-area: article2;
-  background: url(/images/cryptocurrency_ethereum_gastoken_exchange_bug_hackers_796x450.jpg) no-repeat;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/1-copy-5-796x417.jpg) no-repeat;
   background-size: cover;
 }
 
 .art-3 {
   grid-area: article3;
-  background: url(/images/header_image_all_i_want_for_xmas_796x417.png) no-repeat;
+  background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/12/Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-Copy-of-...-3-796x417.png) no-repeat;
   background-size: cover;
 }
 
