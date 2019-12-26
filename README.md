@@ -6,8 +6,18 @@
 
 > In this project, we are going to make a super responsive clone of The Next Web using CSS Grid. This project is completed by Seth Zea and Simon Peter Debbarma, in partial requirements of the Microverse cirriculum. 
 
-![Screenshot - 1920 x 1080 ](/public/screen1.png?raw=true "Screenshot")
-![Screenshot - 1920 x 1080 ](/public/screen2.png?raw=true "Screenshot")
+---
+
+## Screenshots
+
+### Web
+![Web](/images/web.jpg?raw=true "Screenshot")
+
+### Tablet
+![Tablet](/images/tablet.jpg?raw=true "Screenshot")
+
+### Mobile
+![Mobile](/images/mobile.png?raw=true "Screenshot")
 
 
 ---
