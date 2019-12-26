@@ -764,26 +764,24 @@
             </div>
         </div>
     </footer>
-</body>
 
-<script>
+    <!-- Script -->
+    <script>
+        var nav = document.getElementById('poop');
 
-    var nav = document.getElementById('poop');
+        window.onscroll = function () {
 
-    window.onscroll = function () {
+            if (window.pageYOffset > 32) {
 
-        if (window.pageYOffset > 32) {
+                nav.style.position = "fixed";
+                nav.style.top = 0;
 
-            nav.style.position = "fixed";
-            nav.style.top = 0;
-
-        } else {
-            // nav.style.position = "absolute";
-            nav.style.position = 'relative'; //fixed
-            nav.style.top = 32;
+            } else {
+                // nav.style.position = "absolute";
+                nav.style.position = 'relative'; //fixed
+                nav.style.top = 32;
+            }
         }
-    }
-</script>
-
-
+    </script>
+</body>
 </html>

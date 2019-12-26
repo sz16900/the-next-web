@@ -112,7 +112,6 @@ header {
   align-items: end;
 }
 
-
 .art-1-large-logo {
   display: none;
 }
@@ -657,8 +656,6 @@ header {
   height: 9px;
 }
 
-
-
 /* ----------  Media Queries - 768px  ---------- */
 
 @media screen and (min-width: 768px) {
@@ -717,7 +714,7 @@ header {
     max-width: 1192px;
     margin: 0 auto;
   }
-  
+
   /* Featured Articles */
   .article-wrapper {
     margin-top: 28px;
@@ -790,26 +787,22 @@ header {
   }
 }
 
-/*----------  Media Query 824px  ----------*/
+/* ----------  Media Query 824px  ---------- */
 
 @media screen and (min-width: 824px) {
   .article-wrapper {
-    margin-top: 28px;
     height: 55vh;
   }
 }
 
-/*----------  Media Query 1024px  ----------*/
+/* ----------  Media Query 1024px  ---------- */
 
 @media screen and (min-width: 1024px) {
-  .article-wrapper {
-    margin-top: 28px;
-  }
-  
+
   .icon-sm-wrapper {
     display: none;
   }
-  
+
   .article-title {
     font-size: 28px;
   }
@@ -839,7 +832,6 @@ header {
     height: 100%;
     grid-gap: 20px;
   }
-  
 
   .fr-4 {
     display: block;
