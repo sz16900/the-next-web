@@ -16,9 +16,18 @@ a {
 
 .main-wrapper {
   padding: 0 20px;
+  margin-top: 5px;
 }
 
 /* ----------  Navbar  ---------- */
+
+.navbar {
+  display: none;
+}
+
+.header-links {
+  display: none;
+}
 
 header {
   height: 48px;
@@ -292,6 +301,10 @@ header {
 
 .fr-wrapper {
   display: grid;
+}
+
+.fr-4 {
+  display: none;
 }
 
 .funding-round-image {
@@ -581,7 +594,7 @@ header {
 .footer-links {
   background: #131313;
   text-align: center;
-  padding:  35px 0;
+  padding: 35px 0;
 }
 
 .footer-links-social {
@@ -591,21 +604,21 @@ header {
 .footer-links-social a {
   display: inline-block;
   border-radius: 50%;
-  background:#333;
+  background: #333;
   height: 40px;
   padding: 12px;
   text-align: center;
   width: 40px;
-  margin-right:10px;
+  margin-right: 10px;
 }
 
-.footer-links-social li{
-  display: inline-block;  
+.footer-links-social li {
+  display: inline-block;
   color: #fff;
 }
 
 .footer-links-contacts li {
-  font-family: Shentox,sans-serif;
+  font-family: Shentox, sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   display: inline-block;
@@ -641,69 +654,64 @@ header {
 
 
 
-/*----------  Media Queries - 768px  ----------*/
+/* ----------  Media Queries - 768px  ---------- */
 
 @media screen and (min-width: 768px) {
-
   /* Navbar */
 
   .navbar {
-    visibility: visible;
+    display: block;
     background-color: #000;
     color: #fff;
     height: 32px;
     text-align: center;
   }
-  
-   .header {
-    position: sticky;
+
+  .navbar-right {
+    list-style-type: none;
+    display: inline-flex;
+    float: left;
   }
-  
 
- .navbar-right {
-   list-style-type: none;
-   display: inline-flex;
-   float: left;
- }
+  .navbar-right-items {
+    height: 100%;
+    display: grid;
+    align-content: center;
+    padding: 10px;
+  }
 
- .navbar-right-items {
-  height: 100%;
-  display: grid;
-  align-content: center;
-  padding: 10px;
-}
+  .navbar-left {
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+  }
 
- .navbar-left {
-  list-style-type: none;
-  display: inline-flex;
-  float: right;
-}
+  .navbar-left-items {
+    height: 100%;
+    display: grid;
+    align-content: center;
+    padding: 10px;
+  }
 
-.navbar-left-items {
-  height: 100%;
-  display: grid;
-  align-content: center;
-  padding: 10px;
-}
- 
-.header-links {
-  list-style-type: none;
-  display: inline-flex;
-  float: left;
-}
+  .header-links {
+    list-style-type: none;
+    display: inline-flex;
+    float: left;
+  }
 
-.header-link-items {
-  height: 100%;
-  display: grid;
-  align-content: center;
-  padding: 10px;
-}
+  .header-link-items {
+    height: 100%;
+    display: grid;
+    align-content: center;
+    padding: 10px;
+  }
 
   /* Featured Articles */
   .article-wrapper {
-    grid-template-areas: 
-    "article1 article1 article2"
-    "article1 article1 article3";
+    height: 50vh;
+    grid-template-areas:
+      "article1 article1 article2"
+      "article1 article1 article3";
     height: 50vh;
   }
 
@@ -718,11 +726,6 @@ header {
   .art-1 .article-title {
     font-size: 40px;
   }
-  
-  /* .muchachito {
-    height: 230px;
-    width: 200px;
-  } */
 
   .four-col-muchachos {
     grid-template-columns: 1fr 1fr 1fr;
@@ -750,24 +753,58 @@ header {
     font-size: 20px;
     padding: 0 10px 0 0;
   }
+
   .middle-funding {
-    border-left: 1px solid #f42; 
+    border-left: 1px solid #f42;
     border-right: 1px solid #f42;
-    padding-left: 10px; 
+    padding-left: 10px;
     margin-right: 10px;
   }
 
   .fun-stuff-wrapper {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    grid-template-areas: 
-    "clickers1 clickers2"
-    "clickers3 clickers4"
-    "clickers5 clickers6"
-    "clickers7 clickers8";
+    grid-template-areas:
+      "clickers1 clickers2"
+      "clickers3 clickers4"
+      "clickers5 clickers6"
+      "clickers7 clickers8";
   }
+
   .footer-legal-wrapper span {
     display: inline-block;
     padding: 0 5px;
+  }
+}
+
+@media screen and (min-width: 824px) {
+  /* increase the size of this wrapper when resized */
+}
+
+@media screen and (min-width: 1024px) {
+  .main-wrapper {
+    margin-top: 28px;
+  }
+
+  .four-col-muchachos {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "ln_1 ln_2 ln_3 ln_4"
+      "ln_5 ln_6 ln_7 ln_8 ";
+    height: 100%;
+    grid-gap: 20px;
+  }
+
+  .fr-4 {
+    display: block;
+  }
+
+  .fun-stuff-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    grid-template-areas:
+      "clickers1 clickers2 clickers3"
+      "clickers4 clickers5 clickers6"
+      "clickers7 clickers8 hello";
   }
 }
