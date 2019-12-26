@@ -10,6 +10,7 @@
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* ----------  Main  ---------- */
@@ -798,7 +799,6 @@ header {
 /* ----------  Media Query 1024px  ---------- */
 
 @media screen and (min-width: 1024px) {
-
   .icon-sm-wrapper {
     display: none;
   }
