@@ -10,13 +10,13 @@
 
 ## Screenshots
 
-#### Web
-![Web](/images/web.png?raw=true "Screenshot")
+### Web
+![Web](/images/web.jpg?raw=true "Screenshot")
 
-#### Tablet
-![Tablet](/images/tablet.png?raw=true "Screenshot")
+### Tablet
+![Tablet](/images/tablet.jpg?raw=true "Screenshot")
 
-#### Mobile
+### Mobile
 ![Mobile](/images/mobile.png?raw=true "Screenshot")
 
 
