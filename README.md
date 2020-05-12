@@ -33,7 +33,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://simonpeterdebbarma.github.io/the_next_web)
+[Live Demo Link](https://raw.githack.com/sz16900/the-next-web/development/index.html)
 
 ---
 
